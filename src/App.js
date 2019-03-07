@@ -19,6 +19,10 @@ const GlobalStyle = createGlobalStyle`
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
       monospace;
   }
+  
+  * {
+    box-sizing: border-box;
+  }
 `;
 
 class App extends Component {

@@ -1,3 +1,9 @@
 {
-    
+  "type": "object",
+  "required": ["search"],
+  "properties": {
+    "search": {
+      "type": "string"
+    }
+  }
 }
